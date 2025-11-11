@@ -2,9 +2,14 @@
   "name": "@solber-base/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "nx build frontend",
+    "dev": "nx dev frontend --port 3080",
+    "start": "nx start frontend"
+  },
   "private": true,
   "dependencies": {
+    "jotai": "^2.15.1",
     "next": "~15.2.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
