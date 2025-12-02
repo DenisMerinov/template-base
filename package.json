@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "nx build frontend",
-    "dev": "nx dev frontend --port 3080",
-    "start": "nx start frontend"
+    "build:frontend": "nx build frontend",
+    "dev:frontend": "nx dev frontend --port 3080",
+    "start:frontend": "nx start frontend"
   },
   "private": true,
   "dependencies": {
