@@ -1,13 +1,5 @@
 {
-  "buildCommand": "npm run build:frontend",
-  "outputDirectory": "apps/frontend/.next",
-  "devCommand": "npm run dev:frontend",
+  "buildCommand": "npx nx build frontend",
   "installCommand": "npm install",
-  "framework": "nextjs",
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/apps/frontend/$1"
-    }
-  ]
+  "outputDirectory": "apps/frontend/.next"
 }
